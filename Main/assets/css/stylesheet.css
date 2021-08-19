@@ -1,0 +1,135 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 20px;
+    background-color: #33576b;
+    color: #e3e8ec;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    border-bottom: 10px solid #7e94a1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 10px solid #7e94a1;
+}
+
+nav {
+    padding-top: 21px;
+}
+
+/*links change color on hover*/
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #e3e8ec;
+    background-color: #33576D;
+    position: relative;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: #7e94a1;
+}
+
+a:active {
+    top: 10px;
+}
+
+body {
+    background-color: #e3e8ec;
+    color: #2b4c5d;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+main {
+    padding: 100px;
+}
+
+img {
+    display: block;
+    margin-left: 33%;
+    padding: 25px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 12px;
+    padding: 20px;
+}
+
+/*contact form styling*/
+form {
+    padding: 15px;
+}
+
+input[type=text] {
+    width: 30%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: 12px;
+    padding: 2px 2px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+label {
+    display: block;
+    padding: 3px;
+    font-size: 15px;
+}
+
+/*button styling*/
+button[type=submit] {
+    background-color: #33576b;
+    border: none;
+    color: #e3e8ec;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 6px 2px;
+    width: 30%;
+    font-size: 15px;
+    margin-bottom: 75px;
+}
+
+
+section {
+    text-align: center;
+}
+
+/* text align via class*/
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* text size via id*/
+#caption {
+    font-size: 12px;
+}
